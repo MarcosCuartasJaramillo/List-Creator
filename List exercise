@@ -1,0 +1,8 @@
+L=[]
+number=int(input('Enter a value: '))
+while number != 0:
+  L.append(number)
+  print(L)
+  number=int(input('Enter a new value: '))
+else:
+  print('List broken') 
